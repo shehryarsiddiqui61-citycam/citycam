@@ -6,68 +6,70 @@
   <title>Contact | City Cam CCTV Solutions</title>
   <style>
     body {
-      font-family: "Poppins", sans-serif;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #000000, #1a1a1a);
+      color: white;
       margin: 0;
       padding: 0;
-      background: linear-gradient(180deg, #000, #222);
-      color: #fff;
       text-align: center;
     }
     header {
-      background: #111;
-      padding: 20px 0;
-      color: #00e0ff;
-      font-size: 26px;
+      background: #00e5ff;
+      color: black;
+      padding: 20px;
+      font-size: 22px;
       font-weight: bold;
     }
-    section {
-      padding: 40px 20px;
+    .container {
+      max-width: 500px;
+      margin: 50px auto;
+      background: rgba(255, 255, 255, 0.08);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
     }
-    h2 {
-      color: gold;
-      font-size: 28px;
-      margin-bottom: 15px;
+    input, textarea {
+      width: 90%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+      outline: none;
     }
-    p {
-      font-size: 18px;
-      color: #ccc;
-      margin-bottom: 25px;
+    button {
+      background: #00e5ff;
+      color: #000;
+      font-weight: bold;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
     }
-    .contact-info {
-      background: rgba(255, 255, 255, 0.05);
-      display: inline-block;
-      padding: 20px 30px;
-      border-radius: 12px;
-      box-shadow: 0 0 20px rgba(255, 215, 0, 0.2);
+    button:hover {
+      background: #00b3cc;
     }
     a {
-      color: #00e0ff;
+      color: #00e5ff;
       text-decoration: none;
-      font-weight: bold;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      background: #111;
-      padding: 15px;
-      color: #888;
-      font-size: 14px;
     }
   </style>
 </head>
 <body>
-  <header>City Cam CCTV Solutions</header>
-  <section>
-    <h2>Contact Us</h2>
-    <p>We provide professional CCTV installation and smart security services in Karachi.</p>
-    <div class="contact-info">
-      <p>📍 Location: Karachi, Pakistan</p>
-      <p>📞 <a href="https://wa.me/923232006674">+92 323 2006674 (WhatsApp)</a></p>
-      <p>📧 <a href="mailto:shehryarsiddiqui61@gmail.com">shehryarsiddiqui61@gmail.com</a></p>
-      <p>🕐 Available 24/7 for support & installation</p>
-    </div>
-  </section>
-  <footer>© 2025 City Cam CCTV Solutions | All Rights Reserved</footer>
+  <header>Contact City Cam CCTV Solutions</header>
+  <div class="container">
+    <h2>Get in Touch</h2>
+    <p>📍 PIB Colony, Jail Road, Karachi</p>
+    <p>📞 +92 300 4567890</p>
+    <p>📧 citycamcctv@gmail.com</p>
+
+    <form>
+      <input type="text" placeholder="Your Name" required><br>
+      <input type="email" placeholder="Your Email" required><br>
+      <textarea rows="5" placeholder="Your Message"></textarea><br>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <p><a href="index.html">⬅ Back to Home</a></p>
+  </div>
 </body>
 </html>
